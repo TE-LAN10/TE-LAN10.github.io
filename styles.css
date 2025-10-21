@@ -1,0 +1,26 @@
+body {
+  font-family: "Noto Sans TC", sans-serif;
+  background-color: #ffe6eb;
+  text-align: center;
+  padding: 50px;
+}
+
+button {
+  background-color: #ff99b7;
+  border: none;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+button:hover {
+  background-color: #ff77a0;
+}
+
+#msg {
+  margin-top: 20px;
+  font-size: 18px;
+  color: #333;
+}

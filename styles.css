@@ -1,8 +1,10 @@
 body {
   font-family: "Noto Sans TC", sans-serif;
-  background-color: #ffe6eb;
+  background-color: #ffffff; /* 預設白色背景 */
+  color: #222;
   text-align: center;
   padding: 50px;
+  transition: background-color 0.4s, color 0.4s;
 }
 
 button {
@@ -13,6 +15,7 @@ button {
   border-radius: 8px;
   cursor: pointer;
   font-size: 16px;
+  margin: 10px;
 }
 
 button:hover {
@@ -22,5 +25,19 @@ button:hover {
 #msg {
   margin-top: 20px;
   font-size: 18px;
-  color: #333;
+}
+
+/* 暗黑主題樣式 */
+.dark {
+  background-color: #000000;
+  color: #ffffff;
+}
+
+.dark button {
+  background-color: #555;
+  color: #fff;
+}
+
+.dark button:hover {
+  background-color: #888;
 }

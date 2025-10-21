@@ -15,7 +15,7 @@ $(document).ready(function() {
   $("#btnShow").click(function() {
     $("#msg")
       .hide()
-      .html("🎉 嗨！🎉")
+      .html("🎉 恭喜你！jQuery 功能運作成功！🎉")
       .fadeIn(800);
   });
 });
